@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_explosion_particle",
+    "path": "sprites/s_explosion_particle/s_explosion_particle.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
