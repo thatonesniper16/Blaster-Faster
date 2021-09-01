@@ -1,4 +1,6 @@
-if (image_alpha > 0 {
+if (image_alpha > 0 ) {
 	image_alpha -= fade_speed;
 
+}else{
+	instance_destroy();
 }
