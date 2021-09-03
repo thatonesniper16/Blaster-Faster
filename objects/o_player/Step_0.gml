@@ -11,18 +11,18 @@ if (speed > max_speed){
 	speed = max_speed;
 
 	}
-	instance_create_layer(x,y,"Effects", o_explosion_particle)
+	var _offset =random_range(-4, 4) ;
+	var _length=-14;
+	var _x= x +lengthdir_x (_length, image_angle)+ _offset ;
+	var _y= y +lengthdir_y (_length, image_angle)+ _offset ;
+	
+	
+	instance_create_layer(_x,_y,"Effects", o_explosion_particle)
 
 } else {
 	friction = friction_amount;
 
-
-
-
-
-
-
-
+}
 
 
 if (keyboard_check(ord("W"))){
