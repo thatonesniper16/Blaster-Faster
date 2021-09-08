@@ -5,6 +5,8 @@ image_angle = mouse_direction;
 var _thrust = mouse_check_button(mb_right);
 
 
+var _fire_lazer
+
 if (_thrust){
 	motion_add(image_angle, acceleration);
 if (speed > max_speed){
