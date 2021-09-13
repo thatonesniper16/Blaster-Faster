@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "O_lazer",
+  "name": "o_laser",
   "tags": [],
   "resourceType": "GMObject",
 }

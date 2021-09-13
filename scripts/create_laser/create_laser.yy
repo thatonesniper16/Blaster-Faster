@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_lazer",
+  "name": "create_laser",
   "tags": [],
   "resourceType": "GMScript",
 }
