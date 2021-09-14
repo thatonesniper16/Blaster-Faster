@@ -6,7 +6,7 @@ var _thrust = mouse_check_button(mb_right)
 
 
 
-
+// this manages the thrust 
 if (_thrust){
 	motion_add(image_angle, acceleration);
 if (speed > max_speed){
@@ -25,7 +25,7 @@ if (speed > max_speed){
 	friction = friction_amount;
 
 }
-
+//
 var _fire_laser = mouse_check_button_pressed(mb_left)
 if (_fire_laser){
 	create_laser();
