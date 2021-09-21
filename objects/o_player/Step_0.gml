@@ -26,7 +26,7 @@ if (speed > max_speed){
 
 }
 //
-var _fire_laser = mouse_check_button_pressed(mb_left)
+var _fire_laser = mouse_check_button(mb_left)
 if (_fire_laser){
 	create_laser();
 }
